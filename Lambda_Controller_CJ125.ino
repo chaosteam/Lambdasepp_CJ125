@@ -82,7 +82,7 @@ const float STOICH_MIXTURE = 14.7;
 #define           UB_ANALOG_INPUT_PIN                 2             /* Analog input for power supply.*/
 #define           UR_ANALOG_INPUT_PIN                 0             /* Analog input for temperature.*/
 #define           UA_ANALOG_INPUT_PIN                 1             /* Analog input for lambda.*/
-#define           LAMBDA_OUTPUT_PIN               11            /* Analog output to ECU.*/
+#define           LAMBDA_OUTPUT_PIN                   11            /* Analog output to ECU.*/
 
 
 // Define adjustable parameters.
