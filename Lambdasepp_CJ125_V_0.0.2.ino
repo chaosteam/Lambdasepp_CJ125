@@ -32,11 +32,11 @@
 //   PD6 - D6
 //   PD7 - D7
 //   PB0 - D8 / Software MOSI
-//   PB1 - D9 / Software SCK
+//   PB1 - D9
 //   PB2 - D10
 //   PB3 - D11
 //   PB4 - D12 / Software MISO
-//   PB5 - D13
+//   PB5 - D13 / Software SCK
 //   PC0 - D14 / A0
 //   PC1 - D15 / A1
 //   PC2 - D16 / A2
@@ -59,7 +59,7 @@ SoftwareSerial mySerial(0, 1);
 
 const uint8_t SOFT_SPI_MISO_PIN = 12;
 const uint8_t SOFT_SPI_MOSI_PIN = 8;
-const uint8_t SOFT_SPI_SCK_PIN  = 9;
+const uint8_t SOFT_SPI_SCK_PIN  = 13;
 const uint8_t SPI_MODE = 1;
 
 SoftSPI<SOFT_SPI_MISO_PIN, SOFT_SPI_MOSI_PIN, SOFT_SPI_SCK_PIN, SPI_MODE> spi;
