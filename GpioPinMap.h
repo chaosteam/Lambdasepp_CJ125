@@ -1,4 +1,4 @@
-/* Arduino DigitalIO Library
+/* Arduino DigitalIO Library 
  * Copyright (C) 2013 by William Greiman
  *
  * This file is part of the Arduino DigitalIO Library
